@@ -16,7 +16,7 @@ Svaka kolona mora imati sljedeće vrijednosti: "id", "type" (predstavlja vrstu i
 
 ## Filter tabela
 
-Za svaku tabelu je moguće kreirati filter. Filter komponenta je odvojena komponenta koju možemo renderovati bilo gdje u kodu i povezati sa tabelom koju želimo filtrirati. Kada pozovemo komponentu <FilterTable table={tables[0]} />, kreiramo filter za tabelu koja se u nizu tables nalazi na prvom mjestu. Klikom na dugme "Poništi" ponistavamo sve filtere i prikazujemo cijeli niz.
+Za svaku tabelu je moguće kreirati filter. Filter komponenta je odvojena komponenta koju možemo renderovati bilo gdje u kodu i povezati sa tabelom koju želimo filtrirati. Kada pozovemo komponentu `<FilterTable table={tables[0]} />`, kreiramo filter za tabelu koja se u nizu tables nalazi na prvom mjestu. Klikom na dugme "Poništi" ponistavamo sve filtere i prikazujemo cijeli niz.
 
 ## Sortiranje tabela
 
