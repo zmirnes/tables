@@ -1,0 +1,62 @@
+.filterContainer {
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #0b2447;
+  color: white;
+}
+
+.filterHeading {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.filters {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  transition: 300ms;
+}
+
+.filters input {
+  display: block;
+  background-color: white;
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  min-width: 12rem;
+}
+
+.doubleFilter {
+  display: flex;
+  gap: 1rem;
+}
+
+.actions {
+  width: 100%;
+}
+
+.submitBtn {
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  font-weight: 600;
+  background-color: white;
+  color: #0b2447;
+}
+
+.arrowDown {
+  transform: rotate(0deg);
+  transition: 300ms;
+}
+
+.arrowUp {
+  transform: rotate(180deg);
+  transition: 300ms;
+}

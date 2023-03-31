@@ -1,0 +1,129 @@
+.tableContainer {
+  width: 100%;
+  overflow: scroll;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.tableInfo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+}
+
+.addBtn {
+  padding: 0.3rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  border-radius: 50px;
+  border: none;
+  background-color: #0b2447;
+  color: white;
+}
+
+.table {
+  border-collapse: collapse;
+  min-width: 1000px;
+}
+
+.tableHead {
+  background-color: #0b2447;
+  color: white;
+  text-align: left;
+}
+
+.th input {
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  width: 80%;
+}
+
+.th input:focus {
+  cursor: pointer;
+  caret-color: transparent;
+}
+
+.th {
+  padding: 0 1rem 0 0;
+}
+
+.columnActions {
+  display: inline-flex;
+  width: 20%;
+  justify-content: flex-end;
+}
+
+.editColumnBtn {
+  background: transparent;
+  border: none;
+  margin-right: 0.5rem;
+}
+.saveColumnBtn {
+  background-color: transparent;
+  border: none;
+  margin-right: 0.5rem;
+}
+.cancelEditColumnBtn {
+  background: transparent;
+  border: none;
+}
+
+.tableBody {
+  background-color: white;
+}
+
+.td {
+  padding: 0 1rem 0 0;
+}
+
+.tableRow:hover {
+  background-color: #dbdbdb4c;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem 0.3rem;
+  font-size: 0.9rem;
+  background-color: transparent;
+  border: none;
+  font-weight: 600;
+}
+
+input[disabled] {
+  cursor: pointer;
+}
+
+input[enabled] {
+  cursor: default;
+}
+
+input:focus {
+  outline: none;
+  border: none;
+}
+
+.actions {
+  padding: 0.5rem 0rem;
+  margin: auto 0;
+  display: flex;
+  align-items: center;
+}
+
+.actions button {
+  padding: 0.3rem 0.5rem;
+  border-radius: 50px;
+  border: none;
+  background-color: #ff4136;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.noDataText {
+  text-align: center;
+  padding: 1rem 0;
+  font-weight: 600;
+}
