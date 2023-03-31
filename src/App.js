@@ -10,6 +10,8 @@ const App = () => {
     <div>
       <FilterTable table={tables[0]} />
       <Table table={tables[0]} />
+      <Table table={tables[1]} />
+      <FilterTable table={tables[1]} />
     </div>
   );
 };

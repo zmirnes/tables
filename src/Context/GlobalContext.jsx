@@ -48,6 +48,36 @@ const tables = [
       },
     ],
   },
+  {
+    id: 1,
+    tableName: "Radnici u IT sektoru",
+    columns: [
+      {
+        id: "ime",
+        type: "text",
+        name: "Ime",
+        placeholder: "Unesite ime",
+        disabled: true,
+        filterName: "ime",
+      },
+      {
+        id: "prezime",
+        type: "text",
+        name: "Prezime",
+        placeholder: "Unesite prezime",
+        disabled: true,
+        filterName: "prezime",
+      },
+      {
+        id: "datumPocetka",
+        type: "date",
+        name: "Datum početka rada",
+        placeholder: "Unesite datum",
+        disabled: true,
+        filterName: "datumPocetkaRada",
+      },
+    ],
+  },
 ];
 
 const GlobalContext = createContext(null);
