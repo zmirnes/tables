@@ -63,6 +63,7 @@ export const GlobalContextProvider = ({ children }) => {
 
   useEffect(() => {
     localStorage.setItem("tableData", JSON.stringify(tableData));
+    setFilteredData(tableData);
   }, [tableData]);
 
   const addRow = (tableID) => {
